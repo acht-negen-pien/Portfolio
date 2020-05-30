@@ -1,0 +1,109 @@
+body {
+    padding-top: 5rem;
+}
+
+body {
+    padding-top: 5rem;
+}
+
+@media (max-width:767px) {
+    body {
+        padding-top: 5rem;
+        display: grid;
+        grid-template-columns: 5% 1fr 5%;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: '. hero .' '. nav .';
+        grid-gap: 23px;
+    }
+}
+
+.starter-template {
+    padding: 0;
+    text-align: center;
+}
+
+.nav_main {
+    font-family: Permanent Marker;
+    font-size: 50px;
+    grid-area: nav;
+}
+
+@media (max-width:767px) {
+    .nav_main {
+        font-family: Alegreya SC;
+        font-size: 32px;
+        grid-area: nav;
+        text-align: center;
+        align-self: flex-start;
+        justify-content: center;
+        top: 0px;
+    }
+}
+
+.hero {
+    grid-area: hero;
+}
+
+@media (min-width:768px) {
+    .hero {
+        grid-area: hero;
+    }
+}
+
+@media (max-width:767px) {
+    .img_xs {
+        width: 300px;
+    }
+}
+
+.about-me:hover {
+    color: #ad0b0b;
+}
+
+.ux:hover {
+    color: #c4a60d;
+}
+
+.illus:hover {
+    color: #17a20b;
+}
+
+.diggraph:hover {
+    color: #0c36b7;
+}
+
+.cont:hover {
+    color: #7f0fa9;
+}
+
+h2 {
+    padding-top: 50px4;
+}
+
+h2 {
+    font-family: Mansalva;
+    padding-top: 50px;
+}
+
+body {
+    font-family: Inconsolata;
+}
+
+h5 {
+    font-family: Patrick Hand;
+}
+
+h1 {
+    font-family: Patrick Hand;
+}
+
+a.btn {
+    background: black;
+    color: #ffffff;
+}
+
+a.btn:hover {
+    background-color: #747474;
+
+    /* color: #ffffff */
+}

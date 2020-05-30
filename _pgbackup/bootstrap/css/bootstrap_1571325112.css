@@ -167,7 +167,7 @@ sup {
 }
 
 a {
-    color: #000000;
+    color: #007bff;
     text-decoration: none;
     background-color: transparent;
 }
@@ -11131,12 +11131,4 @@ a.text-dark:focus {
         color: inherit;
         border-color: #dee2e6;
     }
-}
-
-nav_main {
-    margin-left: 32px;
-    font-family: Alegreya SC;
-    font-size: 20px;
-    text-align: left;
-    font-weight: 500;
 }

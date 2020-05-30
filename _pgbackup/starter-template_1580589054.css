@@ -1,0 +1,85 @@
+body {
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+    grid-template-areas: '. nav . hero .';
+}
+
+body {
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: '. nav . hero .';
+}
+
+@media (max-width:767px) {
+    body {
+        padding-top: 5rem;
+        display: grid;
+        grid-template-columns: 5% 1fr 5%;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: '. hero .' '. nav .';
+        grid-gap: 23px;
+    }
+}
+
+.starter-template {
+    padding: 0;
+    text-align: center;
+}
+
+.nav_main {
+    font-family: Alegreya SC;
+    font-size: 25px;
+    grid-area: nav;
+}
+
+@media (max-width:767px) {
+    .nav_main {
+        font-family: Alegreya SC;
+        font-size: 32px;
+        grid-area: nav;
+        text-align: center;
+        align-self: flex-start;
+        justify-content: center;
+        top: 0px;
+    }
+}
+
+.hero {
+    grid-area: hero;
+}
+
+@media (min-width:768px) {
+    .hero {
+        grid-area: hero;
+    }
+}
+
+@media (max-width:767px) {
+    .img_xs {
+        width: 300px;
+    }
+}
+
+.about-me:hover {
+    color: #ad0b0b;
+}
+
+.ux:hover {
+    color: #c4a60d;
+}
+
+.illus:hover {
+    color: #17a20b;
+}
+
+.diggraph:hover {
+    color: #0c36b7;
+}
+
+.cont:hover {
+    color: #7f0fa9;
+}
